@@ -122,7 +122,7 @@ a {
   color: var(--clr-rose);
 }
 strong {
-  color: var(--clr-indigo);
+  color: var(--clr-rose);
 }
 
 
@@ -175,6 +175,7 @@ strong {
 
 
  .container {
+  border: 1px solid red;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
