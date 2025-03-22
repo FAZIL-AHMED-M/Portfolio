@@ -38,6 +38,15 @@ html {
  scroll-behavior: smooth;
 }
 
+
+.light-mode {
+  --clr-light: #070a13;
+  --clr-dark: #f1f5f9 ;
+  --clr-slate400: #1e293b;
+  --clr-slate600: #1e293b;
+  --clr-slate800: #1e293b;
+}
+
 body{
   background-color: var(--clr-dark);
   color: var(--clr-light);
@@ -51,6 +60,32 @@ img,picture,video,canvas,svg {
  border-radius: 6px;
 
 }
+
+
+.loading {
+  filter: blur(40px) grayscale(100%);
+}
+.loaded {
+  filter: blur(0) grayscale(0);
+  transition: 0.7s ease-in-out;
+
+}
+
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: var(--clr-rose);
+  outline: 1px solid var(--clr-rose);
+}
+
+
 
 
 /* 
@@ -103,7 +138,7 @@ button {
   text-decoration: none;
   letter-spacing: -0.05em;
   background-color: var(--clr-rose);
-  color: var(--clr-light);
+  color: #f1f5f9 ;
   padding: 0.5em 1em;
   border-radius: 6px;
   box-shadow: 0 10px 20px rgba(225 , 29, 72, 0.5),
