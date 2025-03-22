@@ -39,6 +39,8 @@ html {
 }
 
 
+
+
 .light-mode {
   --clr-light: #070a13;
   --clr-dark: #f1f5f9 ;
@@ -72,18 +74,6 @@ img,picture,video,canvas,svg {
 }
 
 
-body::-webkit-scrollbar {
-  width: 8px;
-}
- 
-body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
-}
- 
-body::-webkit-scrollbar-thumb {
-  background-color: var(--clr-rose);
-  outline: 1px solid var(--clr-rose);
-}
 
 
 
@@ -224,3 +214,20 @@ strong {
  .section {
   margin-top: 5rem ;
  }
+
+
+
+ 
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: var(--clr-rose);
+  outline: 1px solid var(--clr-rose);
+}
